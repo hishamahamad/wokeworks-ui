@@ -1,5 +1,9 @@
 {
     "home": {
-        "greeting": "Hello, world!"
+        "title": {
+            "digitalTransformation": "Your digital transformation partner.",
+            "growthCatalyst": "Your growth catalyst.",
+            "experienceArchitect": "Your experience architect."
+        }
     }
 }
