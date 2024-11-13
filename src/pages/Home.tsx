@@ -47,8 +47,8 @@ export const Home = (): FunctionComponent => {
 	// };
 
 	return (
-		<div className="font-bold w-screen h-screen flex flex-col justify-center items-center relative">
-			<div className="absolute top-8 left-6 z-10">
+		<div className="w-screen h-full relative">
+			<div className="top-8 left-6 z-10 fixed">
 				<WokeWorksLogo height="29" width="189"/>
 			</div>
 
@@ -71,6 +71,14 @@ export const Home = (): FunctionComponent => {
 						speed={50}
 					/>
 				</h1>
+			</section>
+
+			<section className="bg-white h-screen snap-start">
+
+			</section>
+
+			<section className="bg-red-700 h-screen snap-start">
+
 			</section>
 		</div>
 	);

@@ -4,6 +4,14 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    overscroll-behavior-y: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Hammersmith One", sans-serif;
     font-weight: 400;
