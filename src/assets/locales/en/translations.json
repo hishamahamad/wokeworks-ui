@@ -1,9 +1,21 @@
 {
     "home": {
-        "title": {
+        "hero": {
             "digitalTransformation": "Your digital transformation partner.",
             "growthCatalyst": "Your growth catalyst.",
             "experienceArchitect": "Your experience architect."
+        },
+        "aboutUs": {
+            "title": "We specialize in launching digital experiences that transform brands — and industries.",
+            "ourCompetencies": "Our core competencies",
+            "ourCompetenciesList": {
+                "brandingStrategy": "Branding Strategy",
+                "userCentredDesign": "User-Centred Design",
+                "fullstackDevelopment": "Fullstack Development",
+                "seo": "Search Engine Optimization",
+                "omnichannelMarketing": "Omnichannel Marketing",
+                "paidAdvertising": "Paid Advertising"
+            }
         }
     }
 }
